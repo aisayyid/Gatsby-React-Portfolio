@@ -11,24 +11,28 @@ export const headData = {
 export const heroData = {
   title: "Hi, I'm",
   name: 'Alex Isayyid',
-  subtitle: "I'm a Jr. Full-Stack Web Developer",
+  subtitle: 'A Jr. Web Developer and Musician',
   cta: 'About Me',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'headshot.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    'A junior web developer with the heart of an inherent creative and musician. With acquired skills such as JavaScript, React, Express, MongoDB, and Node.js, a certificate in Full-Stack Web Development from the University of Central Florida, and a lifelong study of music, I will continue bringing my out of the box thinking, adaptiveness, and intense passion for artistry to develop practical web applications that inspire its users.',
+  paragraphTwo:
+    'From producing albums, composing film and game soundtracks, to creating web applications , I am driven through the vision for the complete product. I have experienced projects from its inception to completion as both a leader, collaborator, and contributor. The critical qualities I carried from those moments are clear and benevolent communication, focus, perseverance, and leading by example.',
+  paragraphThree:
+    'I will carry these qualities into the artistry of web development, always striving to be an essential and pleasant team member, with the intrinsic goal of creation. ',
+  resume:
+    'https://docs.google.com/document/d/1EXyNMKWoSZ1n3Ml2sLQ0bkQ2Fwz8Kw66sWwZCkbg4iM/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'dvsearchwithimages.jpg',
     title: '',
     info: '',
     info2: '',
@@ -37,7 +41,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'ggtogether.png',
     title: '',
     info: '',
     info2: '',
@@ -46,7 +50,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'NightLife_Screenshot.jpg',
     title: '',
     info: '',
     info2: '',
