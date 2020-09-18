@@ -33,29 +33,32 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'dvsearchwithimages.jpg',
-    title: '',
-    info: '',
+    title: 'Design Vision',
+    info:
+      'Design Vision aims to creatively solve the shortcomings that can come with an unorganized art assets database and making it artist friendly through the use of image recognition technology instead of a keyword based search.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://designvision.herokuapp.com/',
+    repo: 'https://github.com/aisayyid/Design_Vision', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'ggtogether.png',
-    title: '',
-    info: '',
+    title: 'GitGud Together',
+    info:
+      'An app with the goal of uniting gamers who need a group of people with common interests and games played.  Browse user profiles and get good together.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://gitgudtogether.herokuapp.com/',
+    repo: 'https://github.com/aisayyid/GitGud-Together', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'NightLife_Screenshot.jpg',
-    title: '',
-    info: '',
+    title: 'NightLife',
+    info:
+      'Nightlife presents its users with the opportunity to plan their night with the convenience of having all they can do on one application instead of  multitude of searches',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://boaardz56.github.io/Nightlife/',
+    repo: 'https://github.com/aisayyid/Nightlife', // if no repo, the button will not show up
   },
 ];
 
