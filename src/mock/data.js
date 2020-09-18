@@ -36,7 +36,8 @@ export const projectsData = [
     title: 'Design Vision',
     info:
       'Design Vision aims to creatively solve the shortcomings that can come with an unorganized art assets database and making it artist friendly through the use of image recognition technology instead of a keyword based search.',
-    info2: '',
+    info2:
+      'MERN Project, Javascript, Google’s Vision AI, Amazon S3, Multer, Bootstrap,  NPM Packages.',
     url: 'https://designvision.herokuapp.com/',
     repo: 'https://github.com/aisayyid/Design_Vision', // if no repo, the button will not show up
   },
@@ -46,7 +47,8 @@ export const projectsData = [
     title: 'GitGud Together',
     info:
       'An app with the goal of uniting gamers who need a group of people with common interests and games played.  Browse user profiles and get good together.',
-    info2: '',
+    info2:
+      'MySql, Express, Node.js, Handlebars.js, JavaScript, jQuery, Passport, Bootstrap, HTML/CSS.',
     url: 'https://gitgudtogether.herokuapp.com/',
     repo: 'https://github.com/aisayyid/GitGud-Together', // if no repo, the button will not show up
   },
@@ -56,7 +58,7 @@ export const projectsData = [
     title: 'NightLife',
     info:
       'Nightlife presents its users with the opportunity to plan their night with the convenience of having all they can do on one application instead of  multitude of searches',
-    info2: '',
+    info2: 'Zurb Foundation Framework, jQuery, AJAX, HTML, CSS.',
     url: 'https://boaardz56.github.io/Nightlife/',
     repo: 'https://github.com/aisayyid/Nightlife', // if no repo, the button will not show up
   },
