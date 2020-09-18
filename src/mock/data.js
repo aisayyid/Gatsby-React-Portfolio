@@ -66,9 +66,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'alexisayyid@gmail.com | 407-690-3366',
+  btn: 'Reach Out',
+  email: 'alexisayyid@gmail.com',
 };
 
 // FOOTER DATA
@@ -76,23 +76,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/alex-isayyid/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/aisayyid',
     },
   ],
 };
