@@ -85,6 +85,7 @@ export const footerData = {
       url: 'https://github.com/aisayyid',
     },
   ],
+  img: 'techlogos.png',
 };
 
 // Github start/fork buttons
