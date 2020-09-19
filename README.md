@@ -9,9 +9,14 @@ An updated portfolio using React.
 ## Table of Contents:
 
 - [License](#License)
-- [Credit](#Credit)
+- [Preview](#Preview)
 - [Deployed](#Deployed)
+- [Credit](#Credit)
 - [Questions](#Questions)
+
+## Preview
+
+![](/src/images/portfoliopreview.gif)
 
 ## Deployed
 
