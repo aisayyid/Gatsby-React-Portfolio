@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <>
       <footer className="footer navbar-static-bottom">
-        <Container style={{ width: '30%' }}>
+        <Container id="logos">
           <Row className="justify-content-md-center">
             <Col>
               <IconImg alt="profile picture" filename={img} />

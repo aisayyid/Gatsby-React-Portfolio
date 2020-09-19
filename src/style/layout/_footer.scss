@@ -3,8 +3,27 @@
   color: $white-color;
   padding: 4.8rem 0;
 
+  #logos{
+    width:30%;
+  }
+
   @include respond(phone) {
     border: 0px;
+    #logos{
+      width:100%;
+    }
+  }
+  @include respond(tab-port) {
+    border: 0px;
+    #logos{
+      width:60%;
+    }
+  }
+  @include respond(tab-land) {
+    border: 0px;
+    #logos{
+      width:60%;
+    }
   }
 
   &__text {
@@ -68,3 +87,4 @@
     transform: translateY(-2px);
   }
 }
+
