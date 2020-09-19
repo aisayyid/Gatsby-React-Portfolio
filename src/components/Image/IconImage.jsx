@@ -4,33 +4,35 @@ import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 
 const IconImg = ({ filename, alt }) => (
-  <StaticQuery
-    query={graphql`
-      query {
-        images: allFile {
-          edges {
-            node {
-              relativePath
-              name
-              childImageSharp {
-                fixed(width: 500) {
-                  ...GatsbyImageSharpFixed
+  <div className="wrapper">
+    <StaticQuery
+      query={graphql`
+        query {
+          images: allFile {
+            edges {
+              node {
+                relativePath
+                name
+                childImageSharp {
+                  fluid(maxWidth: 500, quality: 100) {
+                    ...GatsbyImageSharpFluid
+                  }
                 }
               }
             }
           }
         }
-      }
-    `}
-    render={(data) => {
-      const image = data.images.edges.find((n) => n.node.relativePath.includes(filename));
+      `}
+      render={(data) => {
+        const image = data.images.edges.find((n) => n.node.relativePath.includes(filename));
 
-      if (!image) return null;
+        if (!image) return null;
 
-      const imageFixed = image.node.childImageSharp.fixed;
-      return <Img className="rounded shadow-lg" alt={alt} fixed={imageFixed} />;
-    }}
-  />
+        const imageFluid = image.node.childImageSharp.fluid;
+        return <Img alt={alt} fluid={imageFluid} />;
+      }}
+    />
+  </div>
 );
 
 IconImg.propTypes = {
